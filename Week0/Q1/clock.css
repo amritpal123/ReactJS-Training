@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #1E90FF;
+}
+
+#greeting{
+    margin-top: 10%;
+    font-size: 75px;
+    color: white;
+}
+
+#hyphen{
+    margin-top: 2%;
+    font-size: 75px;
+    font-weight: bold;
+    color: white;
+}
+
+#clock {
+    margin-top: 2%;
+    font-size: 100px;
+    font-weight: bold;
+    color: white;
+}
+
+#day {
+    margin-top: 2%;
+    font-size: 45px;
+    color: white;
+}
+
