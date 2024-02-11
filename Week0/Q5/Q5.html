@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org" lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Naruto Fan Page</title>
 </head>
 
@@ -12,8 +13,14 @@
 
     <main>
 
-        <h2 style="text-align: center;">About Naruto</h2>
+        <h1 style="text-align: center;">About Naruto</h1>
+
+        <br />
+
         <img class="center" src="images/NarutoCover.jpg" alt="Naruto Uzumaki">
+
+        <br /> <br />
+
         <p>Naruto Uzumaki (うずまきナルト, Uzumaki Naruto) is a shinobi of Konohagakure's Uzumaki clan.
             He became the jinchūriki of the Nine-Tails on the day of his birth — a fate that caused him to be shunned by
             most of Konoha throughout his childhood.
@@ -30,7 +37,8 @@
 
         <br /> <br />
 
-        <h2 style="text-align: center;">Background</h2>
+        <h1 style="text-align: center;">Background</h1>
+        <br />
         <p>
             Naruto was born on the night of October 10th to Minato Namikaze (the Fourth Hokage) and Kushina Uzumaki (the
             second jinchūriki of the Nine-Tails).
@@ -55,64 +63,66 @@
 
         <br /> <br />
 
-        <h2 style="text-align: center;"">
-                Naruto's Jutsu
-            </h2>
-        
+        <h1 style="text-align: center;">Naruto's Jutsu</h1>
+        <br />
+
+        <div style="padding-left: 25px; padding-right: 25px;">
             <table style=" table-layout: fixed; width: 100%;">
-            <thead>
-                <tr style="text-align: center;">
-                    <th>Jutsu</th>
-                    <th>Type</th>
-                    <th>Difficulty</th>
-                    <th>Status</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr style="text-align: center;">
-                    <td>Shadow Clone Jutsu</td>
-                    <td>Ninjutsu</td>
-                    <td>Intermediate</td>
-                    <td>Mastered</td>
-                </tr>
-                <tr style="text-align: center;">
-                    <td>Rasengan</td>
-                    <td>Ninjutsu</td>
-                    <td>Advanced</td>
-                    <td>Mastered</td>
-                </tr>
-                <tr style="text-align: center;">
-                    <td>Summoning Jutsu</td>
-                    <td>Ninjutsu</td>
-                    <td>Advanced</td>
-                    <td>Mastered</td>
-                </tr>
-                <tr style="text-align: center;">
-                    <td>Wind Release: Rasenshuriken</td>
-                    <td>Ninjutsu</td>
-                    <td>High</td>
-                    <td>Mastered</td>
-                </tr>
-                <tr style="text-align: center;">
-                    <td>Sage Art: Rasengan</td>
-                    <td>Ninjutsu</td>
-                    <td>Master</td>
-                    <td>Mastered</td>
-                </tr>
-                <tr style="text-align: center;">
-                    <td>Kurama Sage Mode</td>
-                    <td>Ninjutsu</td>
-                    <td>Master</td>
-                    <td>Mastered</td>
-                </tr>
-            </tbody>
+                <thead>
+                    <tr>
+                        <th>Jutsu</th>
+                        <th>Type</th>
+                        <th>Difficulty</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Shadow Clone Jutsu</td>
+                        <td>Ninjutsu</td>
+                        <td>Intermediate</td>
+                        <td>Mastered</td>
+                    </tr>
+                    <tr>
+                        <td>Rasengan</td>
+                        <td>Ninjutsu</td>
+                        <td>Advanced</td>
+                        <td>Mastered</td>
+                    </tr>
+                    <tr>
+                        <td>Summoning Jutsu</td>
+                        <td>Ninjutsu</td>
+                        <td>Advanced</td>
+                        <td>Mastered</td>
+                    </tr>
+                    <tr>
+                        <td>Wind Release: Rasenshuriken</td>
+                        <td>Ninjutsu</td>
+                        <td>High</td>
+                        <td>Mastered</td>
+                    </tr>
+                    <tr>
+                        <td>Sage Art: Rasengan</td>
+                        <td>Ninjutsu</td>
+                        <td>Master</td>
+                        <td>Mastered</td>
+                    </tr>
+                    <tr>
+                        <td>Kurama Sage Mode</td>
+                        <td>Ninjutsu</td>
+                        <td>Master</td>
+                        <td>Mastered</td>
+                    </tr>
+                </tbody>
             </table>
+        </div>
 
-            <br /> <br /> <br />
+        <br /> <br /> <br />
 
-            <h2 style="text-align: center;">Inspirational Naruto quotes</h2>
-            <br />
-            <ol type="1" style="font-style: italic; margin-left: 20px; margin-right: 20px;">
+        <h2 style="text-align: center;">Inspirational Naruto quotes</h2>
+        <br />
+        <div style="padding-left: 10px;">
+            <ol type="1">
                 <li>“If you don't like the hand that fate's dealt you with, fight for a new one.”</li>
                 <br />
                 <li>“I don't quit, don't run and I never go back on my words! That's my nindo: my ninja way.”</li>
@@ -129,67 +139,74 @@
                 <br />
                 <li>"Hard work is worthless for those that don't believe in themselves."</li>
             </ol>
+        </div>
 
-            <br /> <br />
+        <br /> <br />
 
-            <h2 style="text-align: center;">The Tale of 7th Hokage Naruto Uzumaki</h2>
-            <br />
-            <iframe class="center" width="800" height="400" src="https://www.youtube.com/embed/0bjicmknkVw">
+        <h2 style="text-align: center;">NARUTO || Inspirational || ASMV</h2>
+        <br />
+        <center>
+            <iframe id="video1" width="400" height="200" style="margin-right: 20px;"
+                src="https://www.youtube.com/embed/azhzBF--Gw4">
             </iframe>
-
-            <br /> <br /> <br />
-
-            <h2 style="text-align: center;">A Failure's True Power || NARUTO || Inspirational || ASMV</h2>
-            <br />
-            <iframe class="center" width="800" height="400" src="https://www.youtube.com/embed/azhzBF--Gw4">
+            <iframe id="video2" width="400" height="200" style="margin-left: 20px;"
+                src="https://www.youtube.com/embed/0bjicmknkVw">
             </iframe>
+        </center>
+        <center>
+            <a data-toggle="modal" class="btn btn-primary marginT15" onclick="openFullscreen1();"
+                style="margin-right: 210px;"> Fullscreen View</i></a>
 
-            <br /> <br /> <br />
+            <a data-toggle="modal" class="btn btn-primary marginT15" onclick="openFullscreen2();"
+                style="margin-left: 120px;"> Fullscreen View</i></a>
+        </center>
+        <br /> <br /> <br /> <br />
 
-            <h1 style="text-align: center;"> Gallery </h1>
-            <br />
-            <br />
+        <h1 style="text-align: center;"> Gallery </h1>
+        <br />
 
-            <div class="css-r86sns">
-                <div class="css-1fr2ooz">
-                    <img src="images/anime-gallery1.webp" alt="visual1" style="height:auto;width: 100%">
-                </div>
-                <div class="css-1fr2ooz">
-                    <img src="images/anime-gallery2.webp" alt="visual2" style="width:100%">
-                </div>
-                <div class="css-1fr2ooz">
-                    <img src="images/anime-gallery3.webp" alt="visual3" style="width:100%">
-                </div>
-                <div class="css-1fr2ooz">
-                    <img src="images/anime-gallery4.webp" alt="visual4" style="width:100%">
-                </div>
-                <div class="css-1fr2ooz">
-                    <img src="images/anime-gallery7.webp" alt="visual1" style="width: 100%">
-                </div>
-                <div class="css-1fr2ooz">
-                    <img src="images/anime-gallery8.webp" alt="visual2" style="width:100%">
-                </div>
-                <div class="css-1fr2ooz">
-                    <img src="images/anime-gallery13.webp" alt="visual3" style="width:100%">
-                </div>
-                <div class="css-1fr2ooz">
-                    <img src="images/anime-gallery15.webp" alt="visual4" style="width:100%">
-                </div>
-                <div class="css-1fr2ooz">
-                    <img src="images/anime-gallery14.webp" alt="visual4" style="width:100%">
-                </div>
-                <div class="css-1fr2ooz">
-                    <img src="images/anime-gallery18.webp" alt="visual4" style="width:100%">
-                </div>
-                <div class="css-1fr2ooz">
-                    <img src="images/anime-gallery19.webp" alt="visual4" style="width:100%">
-                </div>
-                <div class="css-1fr2ooz">
-                    <img src="images/anime-gallery20.webp" alt="visual4" style="width:100%">
-                </div>
+        <div class="css-r86sns">
+            <div class="css-1fr2ooz">
+                <img src="images/anime-gallery1.webp" alt="visual2" style="width:97%;height:450px;">
             </div>
+            <div class="css-1fr2ooz">
+                <img src="images/anime-gallery2.webp" alt="visual2" style="width:97%;height:450px;">
+            </div>
+            <div class="css-1fr2ooz">
+                <img src="images/anime-gallery3.webp" alt="visual3" style="width:97%;height:450px;">
+            </div>
+            <div class="css-1fr2ooz">
+                <img src="images/anime-gallery4.webp" alt="visual4" style="width:97%;height:450px;">
+            </div>
+            <div class="css-1fr2ooz">
+                <img src="images/anime-gallery7.webp" alt="visual1" style="width:97%;height:450px;">
+            </div>
+            <div class="css-1fr2ooz">
+                <img src="images/anime-gallery8.webp" alt="visual2" style="width:97%;height:450px;">
+            </div>
+            <div class="css-1fr2ooz">
+                <img src="images/anime-gallery13.webp" alt="visual3" style="width:97%;height:450px;">
+            </div>
+            <div class="css-1fr2ooz">
+                <img src="images/anime-gallery15.webp" alt="visual4" style="width:97%;height:450px;">
+            </div>
+            <div class="css-1fr2ooz">
+                <img src="images/anime-gallery14.webp" alt="visual4" style="width:97%;height:450px;">
+            </div>
+            <div class="css-1fr2ooz">
+                <img src="images/anime-gallery18.webp" alt="visual4" style="width:97%;height:450px;">
+            </div>
+            <div class="css-1fr2ooz">
+                <img src="images/anime-gallery19.webp" alt="visual4" style="width:97%;height:450px;">
+            </div>
+            <div class="css-1fr2ooz">
+                <img src="images/anime-gallery20.webp" alt="visual4" style="width:97%;height:450px;">
+            </div>
+        </div>
 
     </main>
+
+    <script type="text/javascript" src="js/index.js"> </script>
 
 </body>
 

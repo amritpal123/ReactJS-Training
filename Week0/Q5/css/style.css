@@ -30,6 +30,14 @@ h2 {
 ol {
 	line-height: 1.6;
 	color: white;
+	font-style: italic; 
+	margin-left: 20px; 
+	margin-right: 20px;
+	font-size: 20px;
+}
+
+ol li{
+	padding-left: 20px;
 }
 
 footer {
@@ -53,6 +61,7 @@ th,
 td {
 	border: 1px solid white;
 	border-collapse: collapse;
+	text-align: center;
 }
 
 th,
@@ -83,4 +92,5 @@ td {
   p{
 	padding-left: 20px;
 	padding-right: 20px;
+	font-size: 16px;
   }
